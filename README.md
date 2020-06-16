@@ -1,3 +1,4 @@
+
 # Utilisation du pattern
 
 ## Récupération & préparation du dossier
@@ -5,12 +6,12 @@
 - Récupération du repo & mise en place du projet
   - Cloner le repo du pattern `git clone git@github.com:O-clock-Dungeons/WP-Pattern-Composer.git`
   - Première solution:
-    - Renommer le dossier avec le nom du projet souhaité `mv WP-Pattern-Composer <nouveau_nom>`
-    - Se rendre dans le dossier nouvellement créé `cd <nouveau_nom>`
-    - Supprimer le dossier `.git` afin de ne pas écraser le repo du pattern d'origine. Cela permet également de ne pas garder l'historique des commits dans notre nouveau projet. `sudo rm -R .git`
+    -Renommer le dossier avec le nom du projet souhaité `mv WP-Pattern-Composer <nouveau_nom>`
+    -Se rendre dans le dossier nouvellement créé `cd <nouveau_nom>`
+    -Supprimer le dossier `.git` afin de ne pas écraser le repo du pattern d'origine. Cela permet également de ne pas garder l'historique des commits dans notre nouveau projet. `sudo rm -R .git`
   - Deuxième solution:
-    - Créer un nouveau dossier pour notre projet `mkdir <nouveau_nom>`
-    - Prendre tout ce qui se trouve dans le dossier cloné (excepté le `.git`) et le dupliquer dans le nouveau dossier du projet.
+    -Créer un nouveau dossier pour notre projet `mkdir <nouveau_nom>`
+    -Prendre tout ce qui se trouve dans le dossier cloné (excepté le `.git`) et le dupliquer dans le nouveau dossier du projet.
   - Initiliser git dans notre dossier du projet `git init`
 
 ## Mise en place
@@ -39,3 +40,7 @@ sudo chmod 644 .htaccess
   - Admin BO > Réglages > Permalinks > Post Name
 - Activer la bonne langue sur le BO
   - Admin BO > Réglages > Général > Langue du site
+=======
+# Projet Zumba Christèle
+
+
