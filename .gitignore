@@ -1,0 +1,5 @@
+vendor/
+wp/
+wp-config.php
+content/themes/zumba-christèle/node_modules
+!content/index.php
