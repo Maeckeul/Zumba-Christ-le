@@ -1,18 +1,6 @@
+# Projet Zumba Christèle
 
-# Utilisation du pattern
-
-## Récupération & préparation du dossier
-
-- Récupération du repo & mise en place du projet
-  - Cloner le repo du pattern `git clone git@github.com:O-clock-Dungeons/WP-Pattern-Composer.git`
-  - Première solution:
-    -Renommer le dossier avec le nom du projet souhaité `mv WP-Pattern-Composer <nouveau_nom>`
-    -Se rendre dans le dossier nouvellement créé `cd <nouveau_nom>`
-    -Supprimer le dossier `.git` afin de ne pas écraser le repo du pattern d'origine. Cela permet également de ne pas garder l'historique des commits dans notre nouveau projet. `sudo rm -R .git`
-  - Deuxième solution:
-    -Créer un nouveau dossier pour notre projet `mkdir <nouveau_nom>`
-    -Prendre tout ce qui se trouve dans le dossier cloné (excepté le `.git`) et le dupliquer dans le nouveau dossier du projet.
-  - Initiliser git dans notre dossier du projet `git init`
+## Cloner le repo
 
 ## Mise en place
 
@@ -40,7 +28,30 @@ sudo chmod 644 .htaccess
   - Admin BO > Réglages > Permalinks > Post Name
 - Activer la bonne langue sur le BO
   - Admin BO > Réglages > Général > Langue du site
-=======
-# Projet Zumba Christèle
+
+
+## Ensuite, il faut installer webpack
+
+-
+1. Se rendre dans le dossier du theme Zumba-christèle, exécuter  la commande `npm install` qui va installer toute les dépendances Node.js nécessaire au bon fonctionnement de l'application.
+2. Exécuter une des commandes ci-dessous.
+
+## Commandes disponibles
+
+- `npm run start` : Démarre le serveur de développement en utilisant [Browsersync](https://www.browsersync.io/)
+- `npm run build:dev` : Génère les ressources front sans compression en vue d'une utilisation dans un environnement de développemnt
+- `npm run build:prod` : Génère les ressources front avec compression (minify, uglify) en vue d'une utilisation dans un environnement de production
+- `npm run clean` : Supprime les fichiers générés par Webpack
+- `npm run clean:all` : Supprime les fichiers générés par Webpack ainsi que le répertoire des dépendances installées avec NPM (`node_modules`)
+
+## Prérequis (à ne faire qu'une fois à la première utilisation de Webpack)
+
+1. Installer la dernière version de Node.js avec le package `n` :
+    - `sudo npm install -g n`
+    - `sudo n lts`
+2. Installer les packages `webpack`, `webpack-cli` et `webpack-dev-server` en global
+    - `sudo npm install -g webpack webpack-cli webpack-dev-server`
+
+
 
 
