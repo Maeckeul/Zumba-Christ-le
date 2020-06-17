@@ -9,51 +9,40 @@
 </head>
 <body>
 
-  <div class="wrapper">
+  <div class="wrapper" style="background-image: url('peinture.png');">
 
     <header class="header">
       
       <div class="header-logo">
         <a href="#" class="header-logo--link">
-          <img src="https://source.unsplash.com/50x50/?fitness,girl" alt="Logo" class="header-logo__img">
+          <img src="https://source.unsplash.com/30x30/?fitness,girl" alt="Logo" class="header-logo__img">
           <h1 class="header-logo--brand">Zumba Christèle</h1>
         </a>
       </div>
 
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list--item" href="#">
-            <a href="#" class="nav__list--link">Accueil</a>
-          </li>
-          <li class="nav__list--item" href="#">
-            <a href="#" class="nav__list--link">Planning</a>
-          </li>
-          <li class="nav__list--item" href="#">
-            <a href="#" class="nav__list--link">Médias</a>
-          </li>
-          <li class="nav__list--item" href="#">
-            <a href="#" class="nav__list--link">Tarifs</a>
-          </li>
-          <li class="nav__list--item" href="#">
-            <a href="#" class="nav__list--link">Contacts</a>
-          </li>
-          <li class="nav__list--item" href="#">
-            <a href="#" class="nav__list--button">Se connecter</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="logo-menu">
+        <a href="#" class="logo-menu__icon">
+          <i class="fas fa-bars"></i>
+          <p class="logo-menu__text">Menu</p>
+        </a>
+      </div>  
+
+      <div class="login-button">
+        <a href="#" class="login-button--link">Se connecter</a>
+      </div>
 
     </header>
 
     <main class="main">
 
-      <div class="intro">
+      <section class="intro">
 
         <div class="intro__bio">
           <img src="https://source.unsplash.com/100x100/?girl,fitness" alt="girl" class="intro__bio--picture">
           <h2 class="intro__bio--title">Présentation</h2>
         </div>
-          <p class="intro--content">Lorem, ipsum 
+          <p class="intro--content">
+            Lorem, ipsum 
             dolor sit amet consectetur adipisicing elit. 
             Qui adipisci sapiente nemo dolorum ea alias 
             tenetur odit architecto eaque asperiores libero 
@@ -65,9 +54,51 @@
             quis alias.
           </p>
 
-      </div>
+      </section>
 
-      <div class="comments">
+      <section class="grid">
+
+        <div class="grid__item">
+          <img src="https://source.unsplash.com/300x300/?gymnastique" class="grid__item--picture" alt="Gymnastique Rythmique et sportive">
+          <div class="grid__item--description">
+            <p class="grid__item--description--title">Gymnastique Rythmique et Sportive</p>
+            <p class="grid__item--descripion--content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing 
+              elit. Assumenda nemo laudantium iusto repellat rem soluta, 
+              alias, similique voluptate quisquam velit officia perferendis, 
+              ipsam consequuntur consequatur quia! Eligendi culpa magnam modi?
+            </p>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--description">
+            <p class="grid__item--description--title">Gymnastique Rythmique et Sportive</p>
+            <p class="grid__item--descripion--content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing 
+              elit. Assumenda nemo laudantium iusto repellat rem soluta, 
+              alias, similique voluptate quisquam velit officia perferendis, 
+              ipsam consequuntur consequatur quia! Eligendi culpa magnam modi?
+            </p>
+          </div>
+          <img src="https://source.unsplash.com/300x300/?danse" class="grid__item" alt="Zumba">
+        </div>
+        <div class="grid__item">
+          <img src="https://source.unsplash.com/300x300/?coach" class="grid__item" alt="Coaching personnel">
+          <div class="grid__item--description">
+            <p class="grid__item--description--title">Gymnastique Rythmique et Sportive</p>
+            <p class="grid__item--descripion--content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing 
+              elit. Assumenda nemo laudantium iusto repellat rem soluta, 
+              alias, similique voluptate quisquam velit officia perferendis, 
+              ipsam consequuntur consequatur quia! Eligendi culpa magnam modi?
+            </p>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="comments">
+
         <h2 class="comments--title">Avis</h2>
         <p class="comments--content">
           “Christèle, on l’apprécie depuis plusieures années. Elle a su nous séduire par son dynamisme, sa joie de vivre de la pratique sportive. 
@@ -88,7 +119,7 @@
           Sandrine, assistante maternelle, 50 ans
         </p>
 
-      </div>
+      </section>
 
     </main>
 
@@ -119,6 +150,26 @@
       </div>
 
     </footer>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list--item" href="#">
+          <a href="#" class="nav__list--link">Accueil</a>
+        </li>
+        <li class="nav__list--item" href="#">
+          <a href="#" class="nav__list--link">Planning</a>
+        </li>
+        <li class="nav__list--item" href="#">
+          <a href="#" class="nav__list--link">Médias</a>
+        </li>
+        <li class="nav__list--item" href="#">
+          <a href="#" class="nav__list--link">Tarifs</a>
+        </li>
+        <li class="nav__list--item" href="#">
+          <a href="#" class="nav__list--link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
 
   </div>
 

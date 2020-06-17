@@ -1,0 +1,15 @@
+.login-button {
+    display: flex;
+
+    &--link {
+        display: flex;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 1em;
+        font-weight: bold;
+        background-color: $lemon;
+        padding: 0.4em;
+        border-radius: 5%;
+        
+    }
+}

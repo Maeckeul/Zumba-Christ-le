@@ -2,8 +2,8 @@
     margin-top: 0.5em;
     &--link {
         
-        display: block;
-        text-align: center;
+        display: flex;
+        align-items: center;
 
         .header-logo__img {
             border-radius: 50%;
@@ -12,6 +12,7 @@
         .header-logo--brand {
             font-size: 12px;
             font-weight: bold;
+            margin-left: 0.5em;
         }
     }
 
