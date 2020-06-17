@@ -1,13 +1,55 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
+    font-size: 18px;
+    background-color: $white;
+    border-radius: 10px;
+    padding-top: 1em;
     
-
+    &--description {
+        
+        margin-bottom: 2em;
+        text-align: center;
+        color: $fuschia;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
     &__item {
         width: 100%;
+        background-color: $white;
+        padding-bottom: 2em;
 
         &--picture {
             width: 100%;
+            border-radius: 10%;
+        }
+
+        &--description {
+            background-color: $white;
+            text-align: center;
+            
+            &--title {
+                color: $fuschia;
+                font-weight: bold;
+                padding-top: 2em;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+
+            &--content {
+                margin: 2em 3em 2em 3em;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            &--button {
+                font-size: 14px;
+                padding: 1em 1em;
+                background-color: $fuschia;
+                font-weight: bold;
+                border-radius: 10px;
+            }
         }
     }
 }

@@ -13,7 +13,8 @@
 @import
     'layout/wrapper',
     'layout/header',
-    'layout/footer';
+    'layout/footer',
+    'layout/main';
 
 @import
     'components/header-logo',
@@ -24,7 +25,8 @@
     'components/footer-logo',
     'components/logo-menu',
     'components/login-button',
-    'components/grid';
+    'components/grid',
+    'components/header-present';
 
 @import
     'shame';
