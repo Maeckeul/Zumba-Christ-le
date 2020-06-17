@@ -1,0 +1,10 @@
+.footer-logo {
+    display: block;
+    text-align: center;
+
+    &__img {
+        border-radius: 50%;
+       margin-top: 1em;
+       margin-bottom: 0.2em;
+    }
+}

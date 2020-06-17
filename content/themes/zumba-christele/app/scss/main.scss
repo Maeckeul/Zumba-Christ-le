@@ -1,3 +1,27 @@
-h1 {
-    color: red;
-}
+@charset 'utf8';
+
+@import
+    'abstracts/vars';
+
+@import
+    '~reset-css/sass/reset';
+
+@import
+    'base/base',
+    'base/typo';
+
+@import
+    'layout/wrapper',
+    'layout/header',
+    'layout/footer';
+
+@import
+    'components/header-logo',
+    'components/header-nav',
+    'components/intro',
+    'components/comments',
+    'components/social',
+    'components/footer-logo';
+
+@import
+    'shame';

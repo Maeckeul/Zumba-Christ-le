@@ -1,0 +1,23 @@
+.comments {
+    background-color: $lemon;
+    padding-bottom: 2em;
+
+    &--title {
+        display: flex;
+        justify-content: center;
+        padding-top: 2em;
+        font-weight: bold;
+    }
+
+    &--content {
+        margin: 2em;
+        font-size: 14px;
+        line-height: 1.3em;
+    }
+
+    &--author {
+        font-size: 12px;
+        margin-left: 2.3em;
+        font-weight: 500;
+    }
+}

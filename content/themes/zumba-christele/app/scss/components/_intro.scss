@@ -1,0 +1,29 @@
+.intro {
+    background-color: $grey;
+
+    &__bio {
+        display: flex;
+        padding-top: 1em;
+
+        &--picture {
+            border-radius: 50%;
+            margin-left: 2em;
+        }
+
+        &--title {
+            display: flex;
+            align-items: center;
+            margin-left: 1em;
+            font-weight: bold;
+        }
+    }
+
+    &--content {
+        margin-top: 1em;
+        font-size: 14px;
+        line-height: 1.3em;
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-bottom: 1em;
+    }
+}

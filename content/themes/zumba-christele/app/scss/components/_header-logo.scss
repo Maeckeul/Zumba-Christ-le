@@ -1,0 +1,18 @@
+.header-logo {
+    margin-top: 0.5em;
+    &--link {
+        
+        display: block;
+        text-align: center;
+
+        .header-logo__img {
+            border-radius: 50%;
+        }
+
+        .header-logo--brand {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+
+}
