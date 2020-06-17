@@ -1,12 +1,12 @@
 .header-logo {
     margin-top: 0.5em;
+
     &--link {
-        
         display: flex;
         align-items: center;
 
         .header-logo__img {
-            border-radius: 50%;
+            height: 40px;
         }
 
         .header-logo--brand {
