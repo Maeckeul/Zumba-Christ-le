@@ -1,14 +1,21 @@
 .nav {
-    margin-top: 4em;
-    margin-bottom: 0.5em;
+
+    @media screen and (max-width: $breakpoint-large){
+        display: none;
+    }
 
     &__list {
         display: flex;
-        
-        &--link {
-            font-size: 13px;
-            margin-right: 1em;
-            font-weight: 500;
+        margin-bottom: 3em;
+
+        &--item {
+
+            .nav__list--link {
+                margin-left: 4em;
+                font-weight: bold;
+                border-bottom: solid $black 2px;
+                padding-bottom: 0.1em;
+            }
         }
     }
 }
