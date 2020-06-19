@@ -35,7 +35,7 @@
       }
       //add the icon link, if not already there
       if ( this.options.addIcon && 0 === $_external_icon.length ) {
-        this.$_el.after('<span class="' + self.options.iconClassName + '">');
+        this.$_el.append('<span class="' + self.options.iconClassName + '">');
       }
 
       //add the target _blank, if not already there

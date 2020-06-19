@@ -851,34 +851,15 @@ if ( ! function_exists( 'hu_body_class' ) ) {
     if ( hu_is_checked( 'header-img-natural-height' ) ) {
         $classes[] = 'hu-header-img-natural-height';
     }
-
+    // June 2020 : this class is removed once Font Awesome icons are loaded
+    if ( hu_is_checked( 'defer_font_awesome') ) {
+        $classes[] = 'hu-fa-not-loaded';
+    }
     return $classes;
   }
 }
 add_filter( 'body_class', 'hu_body_class' );
 
-
-
-/*  Custom favicon
-/* ------------------------------------ */
-if ( ! function_exists( 'hu_favicon' ) ) {
-
-  function hu_favicon() {
-    // fixes https://github.com/presscustomizr/hueman/issues/619
-    if ( has_site_icon() )
-      return;
-    // retro compat if favicon has been set before implementation of built-in WP one
-    $favicon_url = hu_get_option('favicon');
-    if ( is_string($favicon_url) && !empty($favicon_url) ) {
-      // replace http by https if needed
-      if ( is_ssl() && is_string($favicon_url) && stripos($favicon_url, 'http://') === 0 ) {
-          $favicon_url = 'https' . substr($favicon_url, 4);
-      }
-      echo '<link rel="shortcut icon" href="'.$favicon_url.'" />'."\n";
-    }
-  }
-}
-add_filter( 'wp_head', 'hu_favicon' );
 
 
 /*  Custom logo

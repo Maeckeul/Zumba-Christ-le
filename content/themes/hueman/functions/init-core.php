@@ -45,8 +45,8 @@ if( ! defined( 'HU_WEBSITE' ) )         define( 'HU_WEBSITE' , $hu_base_data['au
 
 //define useful constants
 if( ! defined( 'HU_DYN_WIDGETS_SECTION' ) )      define( 'HU_DYN_WIDGETS_SECTION' , 'dyn_widgets_section' );
-
-if( ! defined( 'REC_NOTICE_ID' ) )  define( 'REC_NOTICE_ID' , 'rec-notice-hueman-1119' );
+if( ! defined( 'PREV_REC_NOTICE_ID' ) )  define( 'PREV_REC_NOTICE_ID' , 'rec-notice-hueman-1119' );
+if( ! defined( 'REC_NOTICE_ID' ) )  define( 'REC_NOTICE_ID' , 'rec-notice-hueman-0620' );
 
 /* ------------------------------------------------------------------------- *
  *  Loads Pluggable Functions
@@ -144,7 +144,7 @@ load_template( get_template_directory() . '/functions/init-plugins-compat.php' )
 
 
 /* ------------------------------------------------------------------------- *
- *   WP Core Filters : upload_mimes, embeds, image_resize_dimensions, widget_text
+ *   WP Core Filters : embeds, image_resize_dimensions, widget_text
 /* ------------------------------------------------------------------------- */
 load_template( get_template_directory() . '/functions/init-wp-core-filters.php' );
 
