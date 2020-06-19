@@ -1,5 +1,6 @@
 .intro {
     padding-bottom: 3em;
+    width: 100%;
 
     @media screen and (min-width: $breakpoint-large) {
         display: flex;
@@ -7,25 +8,31 @@
 
     &__bio {
         display: flex;
-        padding-top: 7em;
+        padding-top: 11em;
         justify-content: center;
 
         &--picture {
+            
             border-radius: 50%;
             height: 400px;
             width: 400px;
             background-position: center;
+
+            @media screen and (min-width: $breakpoint-large) {
+                margin-left: 2em;
+            }
         }
     }
 
     &--content {
-        margin-top: 2em;
-        margin-right: 1em;
+        display: flex;
+        align-items: center;
+        margin: 1em auto;
+        width: 50%;
         font-size: 14px;
         line-height: 1.3em;
         font-weight: 500;
         text-align: center;
-        
 
         @media screen and (min-width: $breakpoint-large) {
             display: flex;

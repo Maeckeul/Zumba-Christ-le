@@ -1,4 +1,5 @@
 .comments {
+    margin: 1em 0; 
 
     @media screen and (min-width: $breakpoint-large) {
         display: flex;
@@ -8,8 +9,6 @@
 
     &--content {
         padding-bottom: 2em;
- 
-
     }
 
     &--title {
