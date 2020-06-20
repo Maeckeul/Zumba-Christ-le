@@ -2,25 +2,22 @@
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
-    background-color: $white;
-    padding-top: 1em;
     background-color: #FFF5EE;
-    padding-bottom: 3em;
 
     @media screen and (min-width: $breakpoint-large) {
         width: 100%;
     }
     
     &--description {
-        
+        width: 100%;
         text-align: center;
-        color: $fuschia;
+        color: $black;
+        background-color: $fuschia;
         font-weight: bold;
         text-transform: uppercase;
-        margin: 1em 0;
+        padding: 2em 0;
 
         @media screen and (min-width: $breakpoint-large) {
-            width: 100%;
             font-size: 20px;
         }
     }
@@ -49,28 +46,31 @@
         }
 
         &--description {
-            background-color: #FFF5EE;
-            text-align: center;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            background-color: #FFF5EE;
+            text-align: center;
+            height: 300px;
 
             @media screen and (min-width: $breakpoint-large) {
                 width: 50%;
+                height: 430px;
             }
             
             &--title {
                 color: $fuschia;
                 font-weight: bold;
-                padding-top: 2em;
                 font-size: 18px;
                 text-transform: uppercase;
+                margin-top: 1.5em;
             }
 
             &--content {
-                margin: 2em 3em 0 3em;
+                width: 80%;
+                margin: auto;
                 font-size: 14px;
                 font-weight: 500;
+                line-height: 1.3em;
 
                 @media screen and (min-width: $breakpoint-large) {
                     font-size: 16px;
@@ -78,13 +78,13 @@
             }
 
             &--button {
-                width: 40%;
                 margin: auto;
                 font-size: 14px;
                 background-color: $fuschia;
                 font-weight: bold;
                 padding: 1em 0.5em;
                 border-radius: 10px;
+                color: #FFF5EE;
             }
         }
     }

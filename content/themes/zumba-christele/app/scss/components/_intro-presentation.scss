@@ -1,17 +1,13 @@
 .intro--presentation {
     display: flex;
-    position: absolute;
-    left: 0;
-    right: 0;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     text-transform: uppercase;
     background-color: $fuschia;
-    height: 11vh;
-    padding: 5em 0 2em;
+    padding: 2em 0;
 
     @media screen and (min-width: $breakpoint-large) {
-        font-size: 22px;
+        font-size: 20px;
     }
 }

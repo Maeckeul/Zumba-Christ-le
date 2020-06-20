@@ -540,6 +540,14 @@ if ( ! class_exists( 'HU_utils_settings_map' ) ) :
                 'section'     => 'performance_sec',
                 'type'        => 'nimblecheck'
           ),
+          // To be implemented for https://github.com/presscustomizr/hueman/issues/881
+          // 'use_fa_icons'  =>  array(
+          //       'default'       => 1,
+          //       'control'     =>  'HU_controls',
+          //       'label'       => __( 'Use Font Awesome icons' , 'hueman' ),
+          //       'section'     => 'performance_sec',
+          //       'type'        => 'nimblecheck'
+          // ),
           'defer_font_awesome'  =>  array(
                 'default'       => 0,
                 'control'     =>  'HU_controls',
@@ -1302,6 +1310,14 @@ if ( ! class_exists( 'HU_utils_settings_map' ) ) :
             'type'      => 'nimblecheck',
             'priority'  => 71,
           ),
+          'post-list-meta-author' => array(
+            'default'   => 0,
+            'control'   => 'HU_controls',
+            'label'     => __('Display author', 'hueman'),
+            'section'   => 'content_blog_sec',
+            'type'      => 'nimblecheck',
+            'priority'  => 72,
+          ),
       );
     }
 
@@ -1333,9 +1349,9 @@ if ( ! class_exists( 'HU_utils_settings_map' ) ) :
                 'skoped' => false// implemented initally not skopable in jan-2020, see ctx_get_excluded_settings()
           ),
           'singular-post-cropped-feat-img' => array(
-                'default'   => 1,
+                'default'   => 0,
                 'control'   => 'HU_controls',
-                'label'     => __( 'Used cropped image (720x340 pixels on desktops)', 'hueman' ),
+                'label'     => __( 'Used cropped image ( max 1320x500 on desktops)', 'hueman' ),
                 'section'   => 'content_single_sec',
                 'type'      => 'nimblecheck',
                 'priority'  => 10,
@@ -1426,9 +1442,9 @@ if ( ! class_exists( 'HU_utils_settings_map' ) ) :
                 'notice'    => __( 'Display the page\'s featured image when it is set' , 'hueman')
           ),
           'singular-page-cropped-feat-img' => array(
-                'default'   => 1,
+                'default'   => 0,
                 'control'   => 'HU_controls',
-                'label'     => __( 'Used cropped image (720x340 pixels on desktops)', 'hueman' ),
+                'label'     => __( 'Used cropped image (max 1320x500 on desktops)', 'hueman' ),
                 'section'   => 'content_page_sec',
                 'type'      => 'nimblecheck'
           ),
@@ -1556,7 +1572,15 @@ if ( ! class_exists( 'HU_utils_settings_map' ) ) :
                   'type'      => 'nimblecheck',
                   'priority'  => 110,
                   'notice'     => __( 'Display the primary sidebar above the content column on smartphone mobile devices (480px).', 'hueman' ),
-            )
+            ),
+            'sl-in-sidebar' => array(
+                'default'   => 1,
+                'control'   => 'HU_controls',
+                'label'     => __('Display social links in the primary sidebar', 'hueman'),
+                'section'   => 'sidebars_design_sec',
+                'type'      => 'nimblecheck',
+                'priority'  => 120,
+            ),
 
       );
     }
@@ -1660,6 +1684,14 @@ if ( ! class_exists( 'HU_utils_settings_map' ) ) :
                 'section'   => 'footer_design_sec',
                 'priority'  => 40,
                 'transport' => 'postMessage'
+          ),
+          'sl-in-footer' => array(
+                'default'   => 1,
+                'control'   => 'HU_controls',
+                'label'     => __('Display social links in the footer', 'hueman'),
+                'section'   => 'footer_design_sec',
+                'type'      => 'nimblecheck',
+                'priority'  => 50
           ),
       );
     }

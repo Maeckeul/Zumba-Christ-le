@@ -2,26 +2,6 @@
 /* ------------------------------------------------------------------------- *
  *  WP Core Filters
 /* ------------------------------------------------------------------------- */
-/*  Add support for svg and svgz format in media upload
-/* ------------------------------------ */
-/**
-* Returns the $mimes array with svg and svgz entries added
-*
-* @package Hueman
-* @since Hueman 3.0.0
-*/
-function hu_custom_mtypes( $mimes ) {
-  if (! apply_filters( 'hu_add_svg_mime_type' , true ) )
-    return $mimes;
-
-  $mimes['svg']   = 'image/svg+xml';
-  $mimes['svgz']  = 'image/svg+xml';
-  return $mimes;
-}
-add_filter( 'upload_mimes' , 'hu_custom_mtypes' );
-
-
-
 /*  Add wmode transparent to media embeds
 /* ------------------------------------ */
 if ( ! function_exists( 'hu_embed_wmode_transparent' ) ) {
@@ -51,11 +31,15 @@ if ( ! function_exists( 'hu_embed_html' ) ) {
     if ( ! $provider || false === $data = $wp_oembed->fetch( $provider, $url, $args ) ) {
       return $html;
     }
-    $type = $data -> type;
-    switch( $type ) {
-        case 'video' :
-          $html = sprintf('<div class="video-container">%1$s</div>', $html );
-        break;
+    // Check that we have a valid $data object
+    // for https://wordpress.org/support/topic/error-in-theme-6/
+    if ( is_object($data) && isset($data->type) ) {
+        $type = $data->type;
+        switch( $type ) {
+            case 'video' :
+              $html = sprintf('<div class="video-container">%1$s</div>', $html );
+            break;
+        }
     }
     return $html;
   }

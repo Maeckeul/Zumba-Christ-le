@@ -448,7 +448,9 @@ function hu_get_logo_title( $is_mobile_menu = false ) {
 
 if ( ! function_exists( 'hu_print_logo_or_title' ) ) {
     function hu_print_logo_or_title( $echo = true, $is_mobile_menu = false ) {
-        $wrap_in_h_one = hu_booleanize_checkbox_val( hu_get_option('wrap_in_h_one') );
+        // June 2020 => never write the mobile site-title in a h1 heading to avoid multiple h1 detected by SEO analyzers
+        // @see https://github.com/presscustomizr/hueman/issues/906
+        $wrap_in_h_one = !$is_mobile_menu && hu_booleanize_checkbox_val( hu_get_option('wrap_in_h_one') );
         $logo_or_title = hu_get_logo_title( $is_mobile_menu );
         // => If no logo is set and  ! hu_is_checked( 'display-header-title' ), the logo title is empty.
         ob_start();
@@ -851,34 +853,15 @@ if ( ! function_exists( 'hu_body_class' ) ) {
     if ( hu_is_checked( 'header-img-natural-height' ) ) {
         $classes[] = 'hu-header-img-natural-height';
     }
-
+    // June 2020 : this class is removed once Font Awesome icons are loaded
+    if ( hu_is_checked( 'defer_font_awesome') ) {
+        $classes[] = 'hu-fa-not-loaded';
+    }
     return $classes;
   }
 }
 add_filter( 'body_class', 'hu_body_class' );
 
-
-
-/*  Custom favicon
-/* ------------------------------------ */
-if ( ! function_exists( 'hu_favicon' ) ) {
-
-  function hu_favicon() {
-    // fixes https://github.com/presscustomizr/hueman/issues/619
-    if ( has_site_icon() )
-      return;
-    // retro compat if favicon has been set before implementation of built-in WP one
-    $favicon_url = hu_get_option('favicon');
-    if ( is_string($favicon_url) && !empty($favicon_url) ) {
-      // replace http by https if needed
-      if ( is_ssl() && is_string($favicon_url) && stripos($favicon_url, 'http://') === 0 ) {
-          $favicon_url = 'https' . substr($favicon_url, 4);
-      }
-      echo '<link rel="shortcut icon" href="'.$favicon_url.'" />'."\n";
-    }
-  }
-}
-add_filter( 'wp_head', 'hu_favicon' );
 
 
 /*  Custom logo
