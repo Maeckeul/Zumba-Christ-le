@@ -2,6 +2,19 @@
     box-sizing: border-box;
 }
 
+body {
+    &.menu-visible {
+
+        .wrapper {
+            filter: blur(3px)
+        }
+
+        .menu {
+            visibility: visible;
+        }
+    }
+}
+
 a {
     text-decoration: none;
     color: $black;
