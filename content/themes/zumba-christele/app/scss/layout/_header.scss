@@ -7,6 +7,10 @@
     width: 100%;
     z-index: 2;
 
+    &--is-fixed {
+        position: fixed;
+    }
+
     @media screen and (max-width: $breakpoint-large) {
         
     }

@@ -16,13 +16,13 @@
 
       <div class="header-logo">
         <a href="#" class="header-logo--link">
-          <img src="silhouette.png" alt="Logo" class="header-logo__img">
+          <img src="https://cdn.pixabay.com/photo/2018/04/28/15/24/silhouette-3357492_960_720.png" alt="Logo" class="header-logo__img">
           <h1 class="header-logo--brand">Zumba Christèle</h1>
         </a>
       </div>
 
       <div class="logo-menu">
-        <a href="#" class="logo-menu__icon">
+        <a href="#" class="ui-button open-menu">
           <i class="fas fa-bars"></i>
           <p class="logo-menu__text">Menu</p>
         </a>

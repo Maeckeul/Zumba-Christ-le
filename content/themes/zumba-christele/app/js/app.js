@@ -1,3 +1,5 @@
+require('jquery.scrollex');
+
 var app = {
 
   init: function() {
@@ -5,6 +7,7 @@ var app = {
     console.log('init');
 
     app.addEvents();
+    app.enableScrollex();
   },
   addEvents: function() {
 
@@ -17,6 +20,21 @@ var app = {
     console.log('J\'ai clicqué sur le menu')
 
     $('body').toggleClass('menu-visible');
+  },
+  enableScrollex: function() {
+
+    $('.intro--presentation').scrollex({
+      enter: app.removeHeaderFixed,
+      leave: app.setHeaderFixed,
+
+      bottom: '+20%',
+    });
+  },
+  removeHeaderFixed: function() {
+    $('.header').removeClass('header--is-fixed');
+  },
+  setHeaderFixed: function() {
+    $('.header').addClass('header--is-fixed');
   }
 };
 
