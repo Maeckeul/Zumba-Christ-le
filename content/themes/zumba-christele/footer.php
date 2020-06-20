@@ -1,8 +1,12 @@
-<?php get_template_part('template-parts/footer/footer'); ?>
+<?php 
 
-<?php get_template_part('template-parts/footer/menu'); ?>
+get_template_part('template-parts/footer/footer');
 
-<?php wp_footer(); ?>
+get_template_part('template-parts/menu/menu'); 
+
+wp_footer(); 
+
+?>
 
 </body>
 </html>
