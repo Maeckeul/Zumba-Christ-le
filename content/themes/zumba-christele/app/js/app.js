@@ -7,6 +7,7 @@ var app = {
     console.log('init');
 
     app.addEvents();
+    app.addLogin();
     app.enableScrollex();
   },
   addEvents: function() {
@@ -20,6 +21,18 @@ var app = {
     console.log('J\'ai clicqué sur le menu')
 
     $('body').toggleClass('menu-visible');
+  },
+  addLogin: function() {
+
+    $('.login-button--link').on('click', app.handleToggleForm);
+  },
+  handleToggleForm: function() {
+
+    event.preventDefault();
+
+    console.log('J\'ai clicqué sur le form')
+
+    $('body').toggleClass('form-visible');
   },
   enableScrollex: function() {
 

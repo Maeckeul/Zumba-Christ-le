@@ -15,7 +15,7 @@
 
       <div class="header-logo">
         <a href="#" class="header-logo--link">
-          <img src="silhouette.png" alt="Logo" class="header-logo__img">
+          <img src="https://cdn.pixabay.com/photo/2018/04/28/15/24/silhouette-3357492_960_720.png" alt="Logo" class="header-logo__img">
           <h1 class="header-logo--brand">Zumba Christèle</h1>
         </a>
       </div>
@@ -48,7 +48,7 @@
       </nav>
 
       <div class="login-button">
-        <a href="#" class="login-button--link">Se connecter</a>
+        <a href="#" class="login-button--link open-form">Se connecter</a>
       </div>
 
     </header>
@@ -62,7 +62,7 @@
         </div>
 
         <div class="intro__bio">
-          <img src="christele.jpg" alt="girl" class="intro__bio--picture">
+          <img src="https://scontent-mrs2-1.xx.fbcdn.net/v/t1.0-9/68567523_225419275091169_5685688641431535616_o.jpg?_nc_cat=111&_nc_sid=8bfeb9&_nc_ohc=YZEUuPblU60AX9EKynV&_nc_ht=scontent-mrs2-1.xx&oh=8f02b064ca5c77539bc82a38530781c3&oe=5F139C20" alt="girl" class="intro__bio--picture">
         
           <p class="intro--content">
             Lorem, ipsum 
@@ -194,7 +194,7 @@
       </div>
 
       <div class="footer-logo">
-        <img src="silhouette.png" alt="girl" class="footer-logo__img">
+        <img src="https://cdn.pixabay.com/photo/2018/04/28/15/24/silhouette-3357492_960_720.png" alt="girl" class="footer-logo__img">
       </div>
 
     </footer>
@@ -241,6 +241,49 @@
         </li>
       </ul>
     </nav>
+
+  </div>
+
+  <div class="form">
+
+    <a href="" class="login-button--link close-form">
+      <i class="fas fa-times"></i>
+      <p class="logo--description">Fermer</p>
+    </a>
+
+  <form method="post" action="http://localhost/Apotheose/projet-zumba-christele/wp/wp-login.php" id="loginform" name="loginform">
+
+    <p>
+   
+     <label for="user_login">Identifiant</label>
+   
+     <input type="text" tabindex="10" size="20" value="" id="user_login" name="log">
+   
+     </p>
+   
+     <p>
+   
+     <label for="user_pass">Mot de passe</label>
+   
+     <input type="password" tabindex="20" size="20" value="" id="user_pass" name="pwd">
+   
+     </p>
+   
+    <p><label class="label"><input type="checkbox" tabindex="90" value="forever" id="rememberme" name="rememberme">
+   
+     Rester connecter</label>
+   
+     <a href="http://localhost/Apotheose/projet-zumba-christele/wp/wp-login.php?action=lostpassword">Mot de passe oublié</a></p>
+   
+     <p>
+   
+     <input type="submit" tabindex="100" value="Se connecter" id="wp-submit" name="wp-submit">
+   
+     <input type="hidden" value="http://localhost/Apotheose/projet-zumba-christele" name="redirect_to">
+   
+     </p>
+   
+    </form>
 
   </div>
 

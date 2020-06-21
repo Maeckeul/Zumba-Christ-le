@@ -1,0 +1,18 @@
+.login-button--link {
+    
+    &.close-form {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .fas {
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo--description {
+        font-weight: 500;
+    }
+}

@@ -15,7 +15,8 @@
     'layout/header',
     'layout/footer',
     'layout/main',
-    'layout/menu';
+    'layout/menu',
+    'layout/form';
 
 @import
     'components/header-logo',
@@ -29,7 +30,8 @@
     'components/grid',
     'components/intro-presentation',
     'components/menu-nav',
-    'components/ui-button';
+    'components/ui-button',
+    'components/form-button';
 
 @import
     'shame';

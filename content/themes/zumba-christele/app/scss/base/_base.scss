@@ -13,6 +13,12 @@ body {
             visibility: visible;
         }
     }
+    &.form-visible{
+        
+        .form {
+            visibility: visible;
+        }
+    }
 }
 
 a {
