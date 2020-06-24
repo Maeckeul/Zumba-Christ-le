@@ -6,3 +6,6 @@ wp-config.php
 /content/themes/*
 !/content/themes/zumba-christele
 !content/index.php
+!content/plugins/
+content/plugins/*
+!content/plugins/zumba/
