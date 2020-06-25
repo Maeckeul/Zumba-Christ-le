@@ -28,17 +28,22 @@
         </a>
       </div>  
 
-      <?php
 
-      wp_nav_menu([
-        'theme_location' => 'header',
-        'container' => 'nav',
-        'container_class' => 'nav',
-        'menu_class' => '',
-        'menu_id' => '',
-      ]);
+      
+        <?php
+
+        wp_nav_menu([
+          'theme_location' => 'menu_header',
+          'menu_class' => 'nav__list',
+          'container' => 'nav',
+          'container_class' => 'main-nav'  
+          
+          
+        ]);
 
       ?>
+     
+      
     
       <!--<nav class="nav">
         <ul class="nav__list">
@@ -58,7 +63,8 @@
             <a href="#" class="nav__list--link">Contacts</a>
           </li>
         </ul>
-      </nav>-->
+        </nav>-->
+      
 
       <div class="login-button">
         <a href="#" class="login-button--link">Se connecter</a>
