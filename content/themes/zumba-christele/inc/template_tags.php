@@ -1,12 +1,12 @@
 <?php
 
-function customize_menu($menu_html, $menu_object)
+function customize_menu($original_menu)
 {
   // Je remplace dans le html du menu la classe "menu-item"
   // par la classe "main-nav__item"
-  $menu_html = str_replace('menu-item', $menu_object->menu_class.'--item', $menu_html);
+  $menu_html = str_replace('menu-item', 'nav__list--item', $original_menu);
   $menu_html = str_replace('href', 'class="nav__list--link" href', $menu_html);
-  $menu_html = str_replace('href', 'class="nav__list--link" href', $menu_html);
+  
   
 
   return $menu_html;
