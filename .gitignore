@@ -1,5 +1,11 @@
 vendor/
 wp/
 wp-config.php
-content/themes/zumba-christèle/node_modules
+/content/*
+!/content/themes/
+/content/themes/*
+!/content/themes/zumba-christele
 !content/index.php
+!content/plugins/
+content/plugins/*
+!content/plugins/zumba/

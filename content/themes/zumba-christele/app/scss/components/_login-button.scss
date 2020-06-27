@@ -1,0 +1,20 @@
+.login-button {
+    display: flex;
+    margin-right: 1em;
+
+    &--link {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: $lemon;
+        padding: 0.5em;
+        border-radius: 5px;
+
+        @media screen and (min-width: $breakpoint-large) {
+            padding: 0.7em 1.2em;
+            font-size: 16px;
+        }
+        
+    }
+}

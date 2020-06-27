@@ -1,0 +1,26 @@
+.header-logo {
+    margin-left: 1em;
+
+    &--link {
+        display: flex;
+        align-items: center;
+
+        .header-logo__img {
+            height: 40px;
+
+            @media screen and (min-width: $breakpoint-large) {
+                height: 50px;
+            }
+        }
+
+        .header-logo--brand {
+            font-size: 12px;
+            font-weight: bold;
+
+            @media screen and (min-width: $breakpoint-large) {
+                font-size: 16px;
+            }
+        }
+    }
+
+}

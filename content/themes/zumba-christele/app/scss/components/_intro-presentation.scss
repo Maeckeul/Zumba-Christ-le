@@ -1,0 +1,14 @@
+.intro--presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: $fuschia;
+    padding: 2em 0;
+
+    @media screen and (min-width: $breakpoint-large) {
+        font-size: 20px;
+        
+    }
+}

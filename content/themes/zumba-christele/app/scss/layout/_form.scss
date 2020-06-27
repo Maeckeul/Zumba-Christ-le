@@ -1,0 +1,28 @@
+.form {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 40;
+    background-color: transparentize($fuschia, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+
+    #loginform {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        font-weight: bold;
+
+        .label {
+            margin-right: 1em;
+        }
+    }
+}

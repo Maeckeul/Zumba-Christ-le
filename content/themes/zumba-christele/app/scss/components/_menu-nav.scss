@@ -1,0 +1,25 @@
+.main-nav {
+
+    width: 50%;
+
+    &__list {
+
+        &--item {
+            display: flex;
+            flex-direction: column;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+
+            &--link {
+                margin-bottom: 2em;
+                padding-bottom: 1em;
+                border-bottom: 1px solid $black;
+
+                &:nth-child(5n+5) {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
