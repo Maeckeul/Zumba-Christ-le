@@ -9,3 +9,5 @@ wp-config.php
 !content/plugins/
 content/plugins/*
 !content/plugins/zumba/
+!content/plugins/comments/
+
