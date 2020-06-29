@@ -1,0 +1,421 @@
+[18-Jun-2020 23:09:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'toto'@'localhost' (using password: YES) in /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php on line 1626
+[18-Jun-2020 23:09:38 UTC] PHP Stack trace:
+[18-Jun-2020 23:09:38 UTC] PHP   1. {main}() /var/www/html/Apotheose/projet-zumba-christele/index.php:0
+[18-Jun-2020 23:09:38 UTC] PHP   2. require() /var/www/html/Apotheose/projet-zumba-christele/index.php:17
+[18-Jun-2020 23:09:38 UTC] PHP   3. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-blog-header.php:13
+[18-Jun-2020 23:09:38 UTC] PHP   4. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-load.php:42
+[18-Jun-2020 23:09:38 UTC] PHP   5. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp-config.php:182
+[18-Jun-2020 23:09:38 UTC] PHP   6. require_wp_db() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-settings.php:126
+[18-Jun-2020 23:09:38 UTC] PHP   7. wpdb->__construct() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/load.php:426
+[18-Jun-2020 23:09:38 UTC] PHP   8. wpdb->db_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:631
+[18-Jun-2020 23:09:38 UTC] PHP   9. mysqli_real_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:1626
+[19-Jun-2020 10:42:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1698): Access denied for user 'zumba-admin'@'localhost' in /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php on line 1626
+[19-Jun-2020 10:42:01 UTC] PHP Stack trace:
+[19-Jun-2020 10:42:01 UTC] PHP   1. {main}() /var/www/html/Apotheose/projet-zumba-christele/index.php:0
+[19-Jun-2020 10:42:01 UTC] PHP   2. require() /var/www/html/Apotheose/projet-zumba-christele/index.php:17
+[19-Jun-2020 10:42:01 UTC] PHP   3. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-blog-header.php:13
+[19-Jun-2020 10:42:01 UTC] PHP   4. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-load.php:42
+[19-Jun-2020 10:42:01 UTC] PHP   5. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp-config.php:182
+[19-Jun-2020 10:42:01 UTC] PHP   6. require_wp_db() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-settings.php:126
+[19-Jun-2020 10:42:01 UTC] PHP   7. wpdb->__construct() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/load.php:426
+[19-Jun-2020 10:42:01 UTC] PHP   8. wpdb->db_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:631
+[19-Jun-2020 10:42:01 UTC] PHP   9. mysqli_real_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:1626
+[19-Jun-2020 10:42:07 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1698): Access denied for user 'zumba-admin'@'localhost' in /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php on line 1626
+[19-Jun-2020 10:42:07 UTC] PHP Stack trace:
+[19-Jun-2020 10:42:07 UTC] PHP   1. {main}() /var/www/html/Apotheose/projet-zumba-christele/index.php:0
+[19-Jun-2020 10:42:07 UTC] PHP   2. require() /var/www/html/Apotheose/projet-zumba-christele/index.php:17
+[19-Jun-2020 10:42:07 UTC] PHP   3. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-blog-header.php:13
+[19-Jun-2020 10:42:07 UTC] PHP   4. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-load.php:42
+[19-Jun-2020 10:42:07 UTC] PHP   5. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp-config.php:182
+[19-Jun-2020 10:42:07 UTC] PHP   6. require_wp_db() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-settings.php:126
+[19-Jun-2020 10:42:07 UTC] PHP   7. wpdb->__construct() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/load.php:426
+[19-Jun-2020 10:42:07 UTC] PHP   8. wpdb->db_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:631
+[19-Jun-2020 10:42:07 UTC] PHP   9. mysqli_real_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:1626
+[19-Jun-2020 10:42:28 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'toto'@'localhost' (using password: YES) in /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php on line 1626
+[19-Jun-2020 10:42:28 UTC] PHP Stack trace:
+[19-Jun-2020 10:42:28 UTC] PHP   1. {main}() /var/www/html/Apotheose/projet-zumba-christele/index.php:0
+[19-Jun-2020 10:42:28 UTC] PHP   2. require() /var/www/html/Apotheose/projet-zumba-christele/index.php:17
+[19-Jun-2020 10:42:28 UTC] PHP   3. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-blog-header.php:13
+[19-Jun-2020 10:42:28 UTC] PHP   4. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-load.php:42
+[19-Jun-2020 10:42:28 UTC] PHP   5. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp-config.php:182
+[19-Jun-2020 10:42:28 UTC] PHP   6. require_wp_db() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-settings.php:126
+[19-Jun-2020 10:42:28 UTC] PHP   7. wpdb->__construct() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/load.php:426
+[19-Jun-2020 10:42:28 UTC] PHP   8. wpdb->db_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:631
+[19-Jun-2020 10:42:28 UTC] PHP   9. mysqli_real_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:1626
+[19-Jun-2020 10:42:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'toto'@'localhost' (using password: YES) in /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php on line 1626
+[19-Jun-2020 10:42:30 UTC] PHP Stack trace:
+[19-Jun-2020 10:42:30 UTC] PHP   1. {main}() /var/www/html/Apotheose/projet-zumba-christele/index.php:0
+[19-Jun-2020 10:42:30 UTC] PHP   2. require() /var/www/html/Apotheose/projet-zumba-christele/index.php:17
+[19-Jun-2020 10:42:30 UTC] PHP   3. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-blog-header.php:13
+[19-Jun-2020 10:42:30 UTC] PHP   4. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-load.php:42
+[19-Jun-2020 10:42:30 UTC] PHP   5. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp-config.php:182
+[19-Jun-2020 10:42:30 UTC] PHP   6. require_wp_db() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-settings.php:126
+[19-Jun-2020 10:42:30 UTC] PHP   7. wpdb->__construct() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/load.php:426
+[19-Jun-2020 10:42:30 UTC] PHP   8. wpdb->db_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:631
+[19-Jun-2020 10:42:30 UTC] PHP   9. mysqli_real_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:1626
+[19-Jun-2020 10:42:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'toto'@'localhost' (using password: YES) in /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php on line 1626
+[19-Jun-2020 10:42:33 UTC] PHP Stack trace:
+[19-Jun-2020 10:42:33 UTC] PHP   1. {main}() /var/www/html/Apotheose/projet-zumba-christele/index.php:0
+[19-Jun-2020 10:42:33 UTC] PHP   2. require() /var/www/html/Apotheose/projet-zumba-christele/index.php:17
+[19-Jun-2020 10:42:33 UTC] PHP   3. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-blog-header.php:13
+[19-Jun-2020 10:42:33 UTC] PHP   4. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-load.php:42
+[19-Jun-2020 10:42:33 UTC] PHP   5. require_once() /var/www/html/Apotheose/projet-zumba-christele/wp-config.php:182
+[19-Jun-2020 10:42:33 UTC] PHP   6. require_wp_db() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-settings.php:126
+[19-Jun-2020 10:42:33 UTC] PHP   7. wpdb->__construct() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/load.php:426
+[19-Jun-2020 10:42:33 UTC] PHP   8. wpdb->db_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:631
+[19-Jun-2020 10:42:33 UTC] PHP   9. mysqli_real_connect() /var/www/html/Apotheose/projet-zumba-christele/wp/wp-includes/wp-db.php:1626
+[24-Jun-2020 13:33:58 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:58 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:58 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:58 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:58 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:58 UTC] PHP   4. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:162
+[24-Jun-2020 13:33:58 UTC] PHP   5. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. _copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1093
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1342
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. _copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1093
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1342
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. _copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1093
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1342
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1104
+[24-Jun-2020 13:33:59 UTC] PHP   6. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1751
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   9. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
+[24-Jun-2020 13:33:59 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php on line 168
+[24-Jun-2020 13:33:59 UTC] PHP Stack trace:
+[24-Jun-2020 13:33:59 UTC] PHP   1. {main}() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:0
+[24-Jun-2020 13:33:59 UTC] PHP   2. do_core_upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:821
+[24-Jun-2020 13:33:59 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/update-core.php:618
+[24-Jun-2020 13:33:59 UTC] PHP   4. update_core() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-core-upgrader.php:171
+[24-Jun-2020 13:33:59 UTC] PHP   5. copy_dir() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/update-core.php:1171
+[24-Jun-2020 13:33:59 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/file.php:1729
+[24-Jun-2020 13:33:59 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:283
+[24-Jun-2020 13:33:59 UTC] PHP   8. chmod() /var/www/html/Projet/projet-zumba-christele/wp/wp-admin/includes/class-wp-filesystem-direct.php:168
