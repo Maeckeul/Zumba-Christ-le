@@ -2,4 +2,5 @@
 
 require ('inc/theme-enqueue.php');
 
-require ('inc/comments.php');
+require ('inc/theme-setup.php');
+
