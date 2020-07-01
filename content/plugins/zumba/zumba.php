@@ -87,6 +87,7 @@ class zumba
       'supports' => [
         'title',
         'editor',
+        'custom-fields',
         'thumbnail',
       ]
     ];

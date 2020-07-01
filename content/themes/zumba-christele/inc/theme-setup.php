@@ -7,13 +7,11 @@ if (!function_exists('zumba_setup')):
         add_theme_support('title-tag');
         add_theme_support('post-thumbnails');
         add_theme_support( 'menus' );
-
         register_nav_menus([
             'menu_header' => __('Menu de navigation en haut de la page', 'zumba'),
             
         ]);
 
-       
     }
 
 endif;
