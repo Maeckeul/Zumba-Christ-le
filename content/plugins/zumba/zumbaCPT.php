@@ -10,12 +10,15 @@ Version: 0.1
 // Sécuriser le plugin
 if (!defined('WPINC')) {die();}
 
-class zumba
+class zumbaCPT
 {
   public function __construct()
   {
     add_action('init', [$this, 'registerActivity']);
     add_action('init', [$this, 'registerIntro']);
+    add_action('init', [$this, 'registerPictures']);
+    add_action('init', [$this, 'registerVideos']);
+
     
   }
 
@@ -41,7 +44,7 @@ class zumba
       'labels' => $labels,
       'public' => true,
       'hierarchical' => true,
-      'menu_position' => 5,
+      'menu_position' => 1,
       'menu_icon' => 'dashicons-info',
       'supports' => [
         'title',
@@ -82,7 +85,7 @@ class zumba
       'hierarchical' => false,
       'exclude_from_search' => true,
       'publicly_queryable' => false,
-      'menu_position' => 5,
+      'menu_position' => 2,
       'menu_icon' => 'dashicons-universal-access',
       'supports' => [
         'title',
@@ -98,12 +101,88 @@ class zumba
     );
   }
 
+  public function registerPictures()
+  {
+    $labels = [
+      'name'               => 'Photos',
+      'singular_name'      => 'Photo',
+      'menu_name'          => 'Photos',
+      'name_admin_bar'     => 'Pics',
+      'add_new'            => 'Ajouter une photo',
+      'add_new_item'       => 'Ajouter une nouvelle introduction',
+      'new_item'           => 'Nouvelle photo',
+      'edit_item'          => 'Editer',
+      'view_item'          => 'Voir les photos',
+      'all_items'          => 'Voir toute les photos',
+      'search_items'       => 'Rechercher une photo',
+      'not_found'          => 'Aucune photo trouvée',
+      'not_found_in_trash' => 'Aucune photo trouvée dans la corbeille',
+    ];
+
+    $args = [
+      'labels' => $labels,
+      'public' => true,
+      'hierarchical' => true,
+      'menu_position' => 3,
+      'menu_icon' => 'dashicons-camera-alt',
+      'supports' => [
+        'title',
+        'thumbnail',
+      ],
+      
+    ];
+
+    register_post_type(
+      'photos',
+      $args
+    );
+  }
+
+  public function registerVideos()
+  {
+    $labels = [
+      'name'               => 'videos',
+      'singular_name'      => 'Video',
+      'menu_name'          => 'Video',
+      'name_admin_bar'     => 'Video',
+      'add_new'            => 'Ajouter un lien vers une video',
+      'add_new_item'       => 'Ajouter un lien vers une video',
+      'new_item'           => 'Nouvelle video',
+      'edit_item'          => 'Editer',
+      'view_item'          => 'Voir les videos',
+      'all_items'          => 'Voir tout les liens vers les vidéos',
+      'search_items'       => 'Rechercher une vidéo',
+      'not_found'          => 'Aucune vidéo trouvée',
+      'not_found_in_trash' => 'Aucune vidéo trouvée dans la corbeille',
+    ];
+
+    $args = [
+      'labels' => $labels,
+      'public' => true,
+      'hierarchical' => true,
+      'menu_position' => 4,
+      'menu_icon' => 'dashicons-format-video',
+      'supports' => [
+        'title',
+        'editor',
+      ],
+      
+    ];
+
+    register_post_type(
+      'videos',
+      $args
+    );
+  }
+
   
   public function activate()
   {
     // A l'activation du plugin, WP, va executer le register_post_type
     $this->registerActivity();
     $this->registerIntro();
+    $this->registerPictures();
+    $this->registerVideos();
     
 
     // J'execute la fonction native de WP qui permet de recalculer
@@ -122,10 +201,10 @@ class zumba
 }
 
 // J'instancie ma classe
-$zumba = new zumba();
+$zumbaCPT = new zumbaCPT();
 
 // A l'activation du plugin...
-register_activation_hook(__FILE__, [$zumba, 'activate']);
+register_activation_hook(__FILE__, [$zumbaCPT, 'activate']);
 
 // A la désactivation du plugin...
-register_deactivation_hook(__FILE__, [$zumba, 'deactivate']);
+register_deactivation_hook(__FILE__, [$zumbaCPT, 'deactivate']);
