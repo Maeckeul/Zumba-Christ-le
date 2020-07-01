@@ -6,7 +6,8 @@
       </section>
 
       <section class="contacts">
-        <form class="contacts__form" action="" method="POST">
+
+        <!--<form class="contacts__form" action="" method="POST">
             <div class="contacts__form--field">
                 <label for="name" class="contacts__form--field--label">Votre nom (obligatoire)</label>
                 <input type="text" id="name" name="user_name">
@@ -31,7 +32,11 @@
                 <button type="submit" class="button">Envoyer</button>
             </div>
         
-        </form>
+        </form>-->
+
+        <?= do_shortcode('[contact-form-7 id="95" title="Contact Zumba Christèle"]'); ?>
+
+
       </section>
       <section class="contacts__info">
         <address class="contacts__info--content">
