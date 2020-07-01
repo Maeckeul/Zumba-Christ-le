@@ -32,14 +32,21 @@
       
         <?php
 
-        wp_nav_menu([
+        $menu = wp_nav_menu([
           'theme_location' => 'menu_header',
           'menu_class' => 'nav__list',
           'container' => 'nav',
-          'container_class' => 'main-nav'  
+          'container_class' => 'nav',
+          'echo' => false,
           
           
         ]);
+
+        $menu = str_replace('menu-item', 'nav__list--item',$menu);
+        $menu = str_replace('href', 'class="nav__list--link" href', $menu);
+
+        echo $menu;
+        
 
       ?>
      

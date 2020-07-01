@@ -10,7 +10,7 @@ if (!function_exists('zumba_setup')):
 
         register_nav_menus([
             'menu_header' => __('Menu de navigation en haut de la page', 'zumba'),
-            'social' => __('Menu des réseaux sociaux situé en pied de page', 'zumba'),
+            
         ]);
 
        
