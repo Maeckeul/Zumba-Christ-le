@@ -7,7 +7,10 @@
 
       <section class="contacts">
 
-        <?= do_shortcode('[contact-form-7 id="95" title="Contact Zumba Christèle"]'); ?>
+        <div class="contacts__form" >
+      
+          <?= do_shortcode('[contact-form-7 id="95" title="Contact Zumba Christèle"]'); ?>
+        </div>
 
       </section>
 
