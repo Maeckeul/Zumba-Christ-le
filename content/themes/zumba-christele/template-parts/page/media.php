@@ -8,7 +8,7 @@
 
   <div class="intro__bio">
 
-    <?php if ($wp_query->have_posts()): while($wp_query->have_posts()): $wp_query->the_post(); ?>
+    <?php if (have_posts()): while(have_posts()): the_post(); ?>
             
     <div class="intro--content">
       <?php the_content()?>
