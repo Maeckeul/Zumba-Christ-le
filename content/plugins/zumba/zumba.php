@@ -46,11 +46,7 @@ class zumba
       'supports' => [
         'title',
         'editor',
-<<<<<<< HEAD
         'thumbnail'
-=======
-        'thumbnail',
->>>>>>> master
       ],
       
     ];
@@ -91,10 +87,7 @@ class zumba
       'supports' => [
         'title',
         'editor',
-<<<<<<< HEAD
         'custom-fields',
-=======
->>>>>>> master
         'thumbnail',
       ]
     ];
