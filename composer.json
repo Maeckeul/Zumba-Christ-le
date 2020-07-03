@@ -10,7 +10,9 @@
         "wpackagist-plugin/akismet":"*",
         "wpackagist-plugin/hello-dolly":"*",
         "wpackagist-theme/hueman":"*",
-        "wpackagist-theme/twentytwenty":"*"
+        "wpackagist-theme/twentytwenty":"*",
+        "wpackagist-plugin/contact-form-7":"*",
+        "wpackagist-plugin/youtube-embed-plus":"*"
     },
     "extra": {
         "wordpress-install-dir": "wp",

@@ -28,7 +28,31 @@
         </a>
       </div>  
 
-      <nav class="nav">
+
+      
+        <?php
+
+        $menu = wp_nav_menu([
+          'theme_location' => 'menu_header',
+          'menu_class' => 'nav__list',
+          'container' => 'nav',
+          'container_class' => 'nav',
+          'echo' => false,
+          
+          
+        ]);
+
+        $menu = str_replace('menu-item', 'nav__list--item',$menu);
+        $menu = str_replace('href', 'class="nav__list--link" href', $menu);
+
+        echo $menu;
+        
+
+      ?>
+     
+      
+    
+      <!--<nav class="nav">
         <ul class="nav__list">
           <li class="nav__list--item" href="#">
             <a href="#" class="nav__list--link">Accueil</a>
@@ -46,7 +70,8 @@
             <a href="#" class="nav__list--link">Contacts</a>
           </li>
         </ul>
-      </nav>
+        </nav>-->
+      
 
       <div class="login-button">
         <a href="#" class="login-button--link">Se connecter</a>

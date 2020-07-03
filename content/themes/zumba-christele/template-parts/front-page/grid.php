@@ -17,7 +17,7 @@ $args = [
     <img src="<?php the_post_thumbnail_url(); ?>" class="grid__item--picture" alt="pictures">
     <div class="grid__item--description">
       <p class="grid__item--description--title"><?php the_title() ?></p>
-      <p class="grid__item--description--content"><?php the_excerpt()?></p>
+      <p class="grid__item--description--content"><?php the_content()?></p>
       <a href="#" class="grid__item--description--button">Cliquez ici pour en savoir plus</a>
     </div>
   </div>

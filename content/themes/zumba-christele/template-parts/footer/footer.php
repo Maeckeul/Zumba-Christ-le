@@ -2,6 +2,37 @@
 
 <footer class="footer">
 
+
+<?php
+
+/*
+  
+
+    $social=wp_nav_menu([
+        'theme_location' => 'social',
+        'menu_class' => 'social__list',
+        'container' => 'div',
+        'container_class' => 'social',
+        'echo' => false
+        
+    ]);
+
+    
+
+    $social = str_replace('menu-item','social__list--item', $social);
+    $social = str_replace('href', 'class="social__list--link" href', $social);
+    
+
+        
+    echo $social;
+
+    
+*/
+  ?>
+
+     
+     
+
       <div class="social">
         <ul class="social__list">
           <li class="social__list--item">
