@@ -8,7 +8,7 @@ wp-config.php
 !content/index.php
 !content/plugins/
 content/plugins/*
-!content/plugins/zumba/
+!content/plugins/zumba-CPT/
 !content/plugins/comments/
 !content/plugins/planning/
 
