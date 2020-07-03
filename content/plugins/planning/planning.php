@@ -50,8 +50,7 @@ function admin_add_admin_et_menu()
     	'Planning', 
     	'manage_options', 
     	'planning', 
-    	array('Planning_Admin', 'planning_displayAdmin'), 
-    	plugins_url('admin/images/logo-rond-stereonomy-white.svg', __FILE__));
+    	array('Planning_Admin', 'planning_displayAdmin')); 
     add_submenu_page('planning', 
     	'Planning', 
     	__( 'Planning', 'planning' ), 
