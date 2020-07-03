@@ -69,13 +69,40 @@
           <li class="nav__list--item" href="#">
             <a href="#" class="nav__list--link">Contacts</a>
           </li>
+
+          <?php 
+          $currentUser = wp_get_current_user();
+
+          if(1 == $currentUser->ID):
+          ?>
+
+          <li class="nav__list--item" href="#">
+            <a href="#" class="nav__list--link">Profil</a>
+          </li>
+
+          <?php endif; ?>
+
         </ul>
         </nav>-->
       
 
+      <?php 
+      $currentUser = wp_get_current_user();
+
+      if(0 == $currentUser->ID):
+      ?>
+
       <div class="login-button">
         <a href="#" class="login-button--link">Se connecter</a>
       </div>
+
+      <?php else: ?>
+
+      <div class="logout-button">
+        <a href="http://localhost/Apotheose/projet-zumba-christele/wp/wp-login.php?action=logout&_wpnonce=088f55f4aa" class="logout-button--link" style="background-color: red;">Se déconnecter</a>
+      </div>
+
+      <?php endif; ?>
 
     </header>
 
