@@ -648,7 +648,7 @@ class PlanningViewCreate {
 				<?php $arrayplanAct_length = count($arrayplanAct); ?>
 				<div class="thisplanning-<?php echo $variationCount ?>">
 					<div class="fullplanning" data-columns="<?php echo $data[0]->rows ?>" data-variation="<?php echo $variationCount ?>" data-id="<?php echo esc_attr($data[0]->id) ?>" data-type="<?php echo esc_attr($data[0]->type) ?>" data-time-mode="<?php echo esc_attr($data[0]->time_mode) ?>" data-display-title="<?php echo esc_attr($data[0]->display_title) ?>" data-display-filters="<?php echo esc_attr($model[0]->display_filters) ?>" data-start-h="<?php echo esc_attr($data[0]->start_h) ?>" data-color="<?php echo esc_attr($data[0]->cell_color) ?>" data-rows="<?php echo esc_attr($data[0]->rows) ?>" data-cells="<?php echo esc_attr($data[0]->cells) ?>" data-height="<?php echo esc_attr($data[0]->height) ?>" data-column-names="<?php echo esc_attr($data[0]->rows_name) ?>">
-						<h3><?php _e( 'Schedule ', 'planning' ); ?><?php echo ($variationCount + 1) ?></h3>
+						<h3><?php _e( 'Planning', 'planning' ); ?><?php echo ($variationCount + 1) ?></h3>
 						<?php $rows = $data[0]->rows;
 		   				$rwidth= 95/$rows;
 
@@ -885,7 +885,7 @@ class PlanningViewCreate {
 		<div id="deleteactform"></div>
 		<div id="dayform"></div>
 		<div id="periodform"></div>
-		<div id="deleteactinfo"><?php _e( 'Please <span class="save-info">SAVE</span> to validate your choice or <span class="exit-info">EXIT</span> to cancel', 'planning' ); ?></div>
+		<div id="deleteactinfo"><?php _e( '<span class="save-info">SAUVEGARDER</span> pour valider votre choix ou<span class="exit-info">EXIT</span> pour quitter', 'planning' ); ?></div>
 		<script type="text/javascript">
 		
 		jQuery(document).ready(function($){
@@ -942,7 +942,7 @@ class PlanningViewCreate {
 					jQuery('.ultimate-submit').addClass('hastobesaved');
 					//On empèche la fenêtre de se fermer
 					jQuery(window).on('beforeunload', function(){
-					  return 'Are you sure you want to leave?';
+					  return 'Etes-vous sur de vouloir quitter ?';
 					});
 				}
 				var changes = parseInt(jQuery('.ultimate-submit').attr('data-changes'));

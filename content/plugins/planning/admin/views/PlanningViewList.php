@@ -33,30 +33,24 @@ class PlanningViewList
         //var_dump($this->model);
         $ajax_nonce = wp_create_nonce("nonce_easytimetable"); ?>
 		<div class="sy-admin-container">
-			<h1 class="sy-plugin-title"><?php _e('EasyTimetable, schedule management system', 'easytimetable-responsive-schedule-management-system'); ?></h1>
+			<h1 class="sy-plugin-title"><?php _e('Planning', 'planning'); ?></h1>
 			<div class="sy-home-button-container">
-				<a class="page-title-action button" style="background-color:#23282d;" href="admin.php?page=easy-timetable"><?php _e('Manage', 'easytimetable-responsive-schedule-management-system'); ?></a>
-				<a class="page-title-action button" href="<?php echo admin_url('admin.php?page=et_create') ?>"><?php _e('New', 'easytimetable-responsive-schedule-management-system'); ?></a>
-                <a class="page-title-action button" href="<?php echo admin_url('admin.php?page=et_settings') ?>"><?php _e('Settings', 'easytimetable-responsive-schedule-management-system'); ?></a>
-				<a class="page-title-action button" href="http://www.stereonomy.com/stereonomy-documentation-help-support/easytimetable-products-documentation/category/easytimetable-for-wordpress" target="_blank" title="<?php _e('EasyTimetable for Wordpress documentation', 'easytimetable-responsive-schedule-management-system'); ?>"><?php _e('Documentation', 'easytimetable-responsive-schedule-management-system'); ?></a>
-				<a class="page-title-action button" href="http://www.stereonomy.com/stereonomy-documentation-help-support/community-support-forum/easy-timetable-free-for-wordpress" target="_blank" title="<?php _e('EasyTimetable for Wordpress Support forum', 'easytimetable-responsive-schedule-management-system'); ?>"><?php _e('Ask for help', 'easytimetable-responsive-schedule-management-system'); ?></a>
-				<a class="page-title-action button" style="background-color:crimson;" href="<?php echo admin_url('admin.php?page=et_extended') ?>"><?php _e('Get extended', 'easytimetable-responsive-schedule-management-system'); ?></a>
-				<a class="page-title-action button" href="<?php echo admin_url('admin.php?page=et_about') ?>"><?php _e('About', 'easytimetable-responsive-schedule-management-system'); ?></a>
+				<a class="page-title-action button" href="<?php echo admin_url('admin.php?page=et_create') ?>"><?php _e('Nouveau', 'planning'); ?></a>
 			</div>
 			<div class="sy-listplanning">
 				<ul id="ulformlistplanning" class="ulformlistplanning"> 
 				<li class="sy-title-eachplanning">
-					<div class="sy-divlist sy-listid"><?php _e('Id', 'easytimetable-responsive-schedule-management-system'); ?></div>
-					<div class="sy-divlist sy-listtitle"><?php _e('Title', 'easytimetable-responsive-schedule-management-system'); ?></div>
-					<div class="sy-divlist sy-listtype"><?php _e('Type', 'easytimetable-responsive-schedule-management-system'); ?></div>
-					<div class="sy-divlist sy-listtimemode"><?php _e('Time mode', 'easytimetable-responsive-schedule-management-system'); ?></div>
-					<div class="sy-divlist sy-liststart"><?php _e('Start time', 'easytimetable-responsive-schedule-management-system'); ?></div>
-					<div class="sy-divlist sy-listaction"><?php _e('Actions', 'easytimetable-responsive-schedule-management-system'); ?></div>
+					<div class="sy-divlist sy-listid"><?php _e('N°', 'planning'); ?></div>
+					<div class="sy-divlist sy-listtitle"><?php _e('Titre', 'planning'); ?></div>
+					<div class="sy-divlist sy-listtype"><?php _e('Type', 'planning'); ?></div>
+					<div class="sy-divlist sy-listtimemode"><?php _e('Mode de temps', 'planning'); ?></div>
+					<div class="sy-divlist sy-liststart"><?php _e('Début', 'planning'); ?></div>
+					<div class="sy-divlist sy-listaction"><?php _e('Actions', 'planning'); ?></div>
 				</li>
 				<?php foreach ((array)$model as $item): ?>
 					<?php
-                        $type = ($item->type == 0 ? __('Fixed', 'easytimetable-responsive-schedule-management-system') : __('Adaptative', 'easytimetable-responsive-schedule-management-system'));
-        $time_mode = ($item->time_mode == 0 ? __('24h', 'easytimetable-responsive-schedule-management-system') : __('12h', 'easytimetable-responsive-schedule-management-system'));
+                        $type = ($item->type == 0 ? __('Fixe', 'planning') : __('Adapté', 'planning'));
+        $time_mode = ($item->time_mode == 0 ? __('24h', 'planning') : __('12h', 'planning'));
         // On récuère les activités
         $activities = stripslashes($item->activities);
         // On récuère les activités planifiées
@@ -73,15 +67,14 @@ class PlanningViewList
 							<div class="sy-divlist sy-listtimemode"><?php echo $time_mode; ?></div>
 							<div class="sy-divlist sy-liststart"><?php echo $item->start_h; ?></div>
 							<div class="sy-divlist sy-listaction">
-								<input id="et_edit_planning_<?php echo $item->id; ?>" class="editButton" type="submit" title="<?php _e('Edit timetable', 'easytimetable-responsive-schedule-management-system'); ?>" value="">
-								<input id="et_delete_planning_<?php echo $item->id; ?>" style="display:none;" data-planning="<?php echo $item->id; ?>" class="deleteButton" type="submit" value="<?php _e('Yes', 'easytimetable-responsive-schedule-management-system'); ?>">
-								<input id="et_duplicate_planning" title="<?php _e('Duplicate timetable is available in the extended version', 'easytimetable-responsive-schedule-management-system'); ?>" class="duplicateButton" type="submit" value="">
-								<input id="trash_<?php echo $item->id; ?>" class="trashButton" type="submit" value="" title="<?php _e('Delete timetable', 'easytimetable-responsive-schedule-management-system'); ?>">
+								<input id="et_edit_planning_<?php echo $item->id; ?>" class="editButton" type="submit" title="<?php _e('Editer le planning', 'planning'); ?>" value="">
+								<input id="et_delete_planning_<?php echo $item->id; ?>" style="display:none;" data-planning="<?php echo $item->id; ?>" class="deleteButton" type="submit" value="<?php _e('Oui', 'planning'); ?>">
+								<input id="trash_<?php echo $item->id; ?>" class="trashButton" type="submit" value="" title="<?php _e('Supprimer le planning', 'planning'); ?>">
 								<input id="copytag_<?php echo $item->id; ?>" class="copyTagButton" type="submit" value="" data-tooltip-content=".tooltiptag-<?php echo $item->id; ?>" data-clipboard-text="[planning id=<?php echo $item->id; ?>]">
 							
 							</div>
 							<div class="tooltiptag-container" style="display:none;">
-								<div class="tooltiptag-<?php echo $item->id; ?>"><strong><?php printf(__('Click to copy the tag "[planning id=%s]', 'easytimetable-responsive-schedule-management-system'), $item->id); ?></strong><br /> then <strong>paste it</strong> in a post or in a page.</div>
+								<div class="tooltiptag-<?php echo $item->id; ?>"><strong><?php printf(__('Cliquer pour copier [planning id=%s]', 'planning'), $item->id); ?></strong><br /> puis <strong>coller le</strong> dans un article ou dans une page.</div>
 							</div>
 						</form>
 					</li>
@@ -96,7 +89,7 @@ class PlanningViewList
 									<?php $arrayplanAct = $variation["scheduledacts"]; ?>
 									<?php $arrayplanAct_length = count($arrayplanAct); ?>
 							        <div class="sy-small-schedule">
-							        	<div class="sy-small-title"><?php _e('Schedule ', 'easytimetable-responsive-schedule-management-system');
+							        	<div class="sy-small-title"><?php _e('Planning ', 'planning');
         echo((int)$variationCount + 1); ?></div>
 							        <?php
                                         // On récuère les activités
@@ -157,7 +150,7 @@ class PlanningViewList
                                                                 $doublestyle = "width:100%;";
                                                             }
                                                         } ?> 
-												        <li  class="activite" style="background-color:#<?php echo $decodedAct->{'actcolor'} ?>;color:#<?php echo  $decodedAct->{'fontcolor'} ?>;<?php echo $doublestyle ?>">
+												        <li class="activite" style="background-color:#<?php echo $decodedAct->{'actcolor'} ?>;color:#<?php echo  $decodedAct->{'fontcolor'} ?>;<?php echo $doublestyle ?>">
 													    </li>
 												<?php
                                                     }// fin if id_cell == idul
@@ -172,11 +165,11 @@ class PlanningViewList
 						   			<?php $variationCount++; ?>
 					   			<?php endforeach ?>
 					   		<?php else: ?>
-					   		<div><?php _e('Please edit and save right after the timetable is loaded to update the timetable', 'easytimetable-responsive-schedule-management-system'); ?></div>
+					   		<div><?php _e('Veuillez éditer et sauvegarder après que le planning soit chargé pout mettre à jour le planning', 'planning'); ?></div>
 					   		<?php endif ?>
 				   			</div>
 				   			<div class="liste-activites">
-				   				<div class="sy-title-acti"><?php _e('Activities', 'easytimetable-responsive-schedule-management-system'); ?></div>
+				   				<div class="sy-title-acti"><?php _e('Activités', 'planning'); ?></div>
 				   				<div>
 				   					<?php
                                     // On récuère les activités
@@ -229,8 +222,8 @@ class PlanningViewList
     {
         //$this->model;
         //var_dump($this->model); ?>
-			<h1>EasyTimetable</h1>
-			<a class="page-title-action" href="admin/models/PlanningViewList.php">New</a>
+			<h1>Planning</h1>
+			<a class="page-title-action" href="admin/models/PlanningViewList.php">Nouveau</a>
 			<ul> 
 			<?php foreach ((array)$model as $item): ?>
 				
